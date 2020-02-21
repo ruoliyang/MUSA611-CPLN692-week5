@@ -8,15 +8,31 @@ html {
 body {
     padding: 0;
     font-family: helvetica, arial, sans-serif;
+    margin: 0;
+}
+
+.header{
+  background-color: #000;
+  position: absolute;
+  height: 50px;
+  z-index: 1;
+  color: #fff;
+  width: 100%;
+}
+
+.search-active{
+  blackground-color: blue;
+  position: relative;
+  left: 5px;
 }
 
 .map {
     background-color: #eee;
     position: absolute;
-    left: 400px;
-    right: 0;
+    left: 0px;
+    right: 400px;
     bottom: 0;
-    top: 0;
+    top: 50px;
 }
 
 .sidebar {
@@ -24,8 +40,8 @@ body {
                          a lot of content in it */
     background-color: #ccc;
     position: absolute;
-    left: 0;
+    right: 0;
     width: 400px;
     bottom: 0;
-    top: 0;
+    top: 50px;
 }
